@@ -172,7 +172,7 @@ class prankCall{
 
 		while(true){
 
-			echo "cek nomor?(y/n)		";
+			echo "Benar?(y/n)		";
 
 			$loop = $this->get();
 
@@ -192,7 +192,7 @@ class prankCall{
 
 		if($loop=="y"){
 
-			echo "Berapa banyak? ;			
+			echo "Berapa banyak?			";
 
 			$many = $this->get();
 
@@ -208,13 +208,9 @@ class prankCall{
 
 }
 
-echo "#################################\n
-____ ____ _  _ ____ ____ ____ _    _    
-|___ |__| |_/  |___ |    |__| |    |    
-|    |  | | \_ |___ |___ |  | |___ |___ 
-                                        \n#################################\n";
+echo "#################################\n ____ ____ _ _ ____ ____ ____ _ _ |___ |__| |_/ |___ | |__| | | | | | | \_ |___ |___ | | |___ |___  \n#################################\n";
 
-echo "Nomor target			";
+echo "nomor target?		";
 
 $no = get();
 
